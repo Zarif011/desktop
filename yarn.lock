@@ -1379,20 +1379,17 @@
     "@types/node" "*"
     form-data "^3.0.0"
 
-"@types/node@*":
-  version "12.12.24"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.24.tgz#d4606afd8cf6c609036b854360367d1b2c78931f"
-  integrity sha512-1Ciqv9pqwVtW6FsIUKSZNB82E5Cu1I2bBTj1xuIHXLe/1zYLl3956Nbhg2MzSYHVfl9/rmanjbQIb7LibfCnug==
+"@types/node@*", "@types/node@^22.7.7":
+  version "22.19.15"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.19.15.tgz#6091d99fdf7c08cb57dc8b1345d407ba9a1df576"
+  integrity sha512-F0R/h2+dsy5wJAUe3tAU6oqa2qbWY5TpNfL/RGmo1y38hiyO1w3x2jPtt76wmuaJI4DQnOBu21cNXQ2STIUUWg==
+  dependencies:
+    undici-types "~6.21.0"
 
 "@types/node@18.16.1":
   version "18.16.1"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.16.1.tgz#5db121e9c5352925bb1f1b892c4ae620e3526799"
   integrity sha512-DZxSZWXxFfOlx7k7Rv4LAyiMroaxa3Ly/7OOzZO8cBNho0YzAi4qlbrx8W27JGqG57IgR/6J7r+nOJWw6kcvZA==
-
-"@types/node@^18.11.18":
-  version "18.16.3"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.16.3.tgz#6bda7819aae6ea0b386ebc5b24bdf602f1b42b01"
-  integrity sha512-OPs5WnnT1xkCBiuQrZA4+YAV4HEJejmHneyraIaxsbev5yCEr6KMwINNFP9wQeFIw8FWcoTqF3vQsa5CDaI+8Q==
 
 "@types/plist@^3.0.2":
   version "3.0.2"
@@ -3603,13 +3600,13 @@ electron-winstaller@*, electron-winstaller@^5.0.0:
     lodash.template "^4.2.2"
     temp "^0.9.0"
 
-electron@28.2.3:
-  version "28.2.3"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-28.2.3.tgz#d26821bcfda7ee445b4b75231da4b057a7ce6e7b"
-  integrity sha512-he9nGphZo03ejDjYBXpmFVw0KBKogXvR2tYxE4dyYvnfw42uaFIBFrwGeenvqoEOfheJfcI0u4rFG6h3QxDwnA==
+electron@39.8.4:
+  version "39.8.4"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-39.8.4.tgz#0173406c76613f66f86956cbf757dd08a1edfaa6"
+  integrity sha512-eXYKxr4y+s31xs78keVJYg+XY20tGQMQzyIhZvc5L0XRDH2Gp08mbeFlbR1OjAeM5h5l/T2JYT2MFK2kYe2fMg==
   dependencies:
     "@electron/get" "^2.0.0"
-    "@types/node" "^18.11.18"
+    "@types/node" "^22.7.7"
     extract-zip "^2.0.1"
 
 element-closest@^2.0.2:
@@ -9248,6 +9245,11 @@ underscore@~1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.6.0.tgz#8b38b10cacdef63337b8b24e4ff86d45aea529a8"
   integrity sha1-izixDKze9jM3uLJOT/htRa6lKag=
+
+undici-types@~6.21.0:
+  version "6.21.0"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.21.0.tgz#691d00af3909be93a7faa13be61b3a5b50ef12cb"
+  integrity sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==
 
 union-value@^1.0.0:
   version "1.0.0"
